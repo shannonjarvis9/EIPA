@@ -23,8 +23,8 @@ for i = 1:nx
             G(n,n) = -4;
             G(n,nxm) = 1;
             G(n,nxp) = 1;
-            G(nym,n) = 1;
-            G(nyp,n) = 1;         
+            G(n,nym) = 1;
+            G(n,nyp) = 1;         
         end
         
 %         if (i > 10 & i < 20 & j > 10 & j < 20)
